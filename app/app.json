@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Mutasi",
+    "slug": "mutasi-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.mutasi.app",
+      "usesCleartextTraffic": false
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ]
+  }
+}
